@@ -164,10 +164,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 09:36:06</publishTime>
     </File>
     <File Include="bin/SendingEmail.dll">
-      <publishTime>04/01/2020 09:58:10</publishTime>
+      <publishTime>04/18/2020 17:44:36</publishTime>
     </File>
     <File Include="bin/SendingEmail.pdb">
-      <publishTime>04/01/2020 09:58:10</publishTime>
+      <publishTime>04/18/2020 17:44:36</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>04/01/2020 09:36:05</publishTime>
@@ -566,7 +566,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 09:36:05</publishTime>
     </File>
     <File Include="Views/Email/Index.cshtml">
-      <publishTime>04/01/2020 09:36:05</publishTime>
+      <publishTime>04/18/2020 17:33:31</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>04/01/2020 09:36:05</publishTime>
@@ -581,7 +581,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 09:36:05</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>04/01/2020 09:36:05</publishTime>
+      <publishTime>04/18/2020 17:41:33</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>04/01/2020 09:36:05</publishTime>
@@ -590,7 +590,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/01/2020 09:36:05</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/01/2020 09:58:33</publishTime>
+      <publishTime>04/18/2020 17:45:23</publishTime>
     </File>
   </ItemGroup>
 </Project>

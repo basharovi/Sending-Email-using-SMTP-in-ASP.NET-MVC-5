@@ -73,3 +73,4 @@ C:\Users\PRPC-05\Desktop\Instant\Sending-Email-using-SMTP-in-ASP.NET-MVC-5\Sendi
 C:\Users\PRPC-05\Desktop\Instant\Sending-Email-using-SMTP-in-ASP.NET-MVC-5\SendingEmail\obj\Release\SendingEmail.csproj.CopyComplete
 C:\Users\PRPC-05\Desktop\Instant\Sending-Email-using-SMTP-in-ASP.NET-MVC-5\SendingEmail\obj\Release\SendingEmail.dll
 C:\Users\PRPC-05\Desktop\Instant\Sending-Email-using-SMTP-in-ASP.NET-MVC-5\SendingEmail\obj\Release\SendingEmail.pdb
+C:\Users\PRPC-05\Desktop\Instant\Sending-Email-using-SMTP-in-ASP.NET-MVC-5\SendingEmail\obj\Release\SendingEmail.csproj.CoreCompileInputs.cache
