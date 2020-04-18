@@ -40,10 +40,10 @@ namespace SendingEmail.Controllers
                                 emailVm.EmailBody + "<br /><br /><br />" +
                                 "It's a Demo Email";
 
-            emailVm.SenderEmailAddress = "itsdemo.247@gmail.com";
-            emailVm.SenderPassword = ""; 
-            emailVm.SmtpHostServer = "smtp.gmail.com";
-            emailVm.SmtpPort = 587;
+            emailVm.SenderEmailAddress = System.Configuration.ConfigurationManager.AppSettings["SenderEmail"];
+            emailVm.SenderPassword = System.Configuration.ConfigurationManager.AppSettings["SenderPassword"];
+            emailVm.SmtpHostServer = System.Configuration.ConfigurationManager.AppSettings["smtpHostServer"];
+            emailVm.SmtpPort = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["smtpPort"]);
 
             try
             {
