@@ -25,11 +25,11 @@ namespace SendingEmail.Controllers
             var isSent = SendEmail(emailViewModel);
             if (!isSent)
             {
-                ViewBag.Message = "Email Sending Failed!";
+                ViewBag.Message = "false";
                 return View();
             }
 
-            ViewBag.Message = "Email has been sent Successfully!";
+            ViewBag.Message = "true";
 
             return View();
         }

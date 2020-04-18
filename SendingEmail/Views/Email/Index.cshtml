@@ -1,18 +1,17 @@
 ﻿    
     <form method="post">
         <div class="row">
-            <div class="offset-3 col-9 mb-2">
-                <label class="text-info font-italic">
-                    @ViewBag.Message
-                </label>
-            </div>
+            
             <div class="col-4 col-md-2">
                 <label class="active form-check">
                     Email Subject
                 </label>
             </div>
             <div class="col-8 col-md-10">
-                <input name="EmailSubject" type="text" class="form-control form-check col-12 col-md-6 mb-2" />
+                <input name="EmailSubject" 
+                       type="text" 
+                       required
+                       class="form-control form-check col-12 col-md-6 mb-2" />
             </div>
             <div class="col-4 col-md-2">
                 <label class="active form-check">
@@ -20,7 +19,10 @@
                 </label>
             </div>
             <div class="col-8 col-md-10">
-                <input type="text" name="ReceiverEmailAddress" class="form-control form-check col-12 col-md-6 mb-2" />
+                <input type="text" 
+                       required
+                       name="ReceiverEmailAddress"
+                       class="form-control form-check col-12 col-md-6 mb-2" />
             </div>
             <div class="col-4 col-md-2">
                 <label class="active form-check">
@@ -28,7 +30,10 @@
                 </label>
             </div>
             <div class="col-8 col-md-10">
-                <textarea name="EmailBody" rows="7" class="form-control form-check col-12 col-md-6 mb-2"> </textarea>
+                <textarea name="EmailBody" 
+                          rows="7" 
+                          class="form-control form-check col-12 col-md-6 mb-2">
+                </textarea>
             </div>
             <div class="offset-4 offset-md-6">
                 <input type="submit" value="Send Email" class="btn btn-outline-info" />
@@ -38,4 +43,30 @@
     </form>
     
 
+        <script>
+            $(function() {
 
+                var message = "@ViewBag.Message";
+
+                if(message === "false") {
+                    Swal.fire({
+                        position: 'top',
+                        icon: 'error',
+                        title: 'Email Sending Failed!',
+                        showConfirmButton: true
+                    });
+                }
+
+                if (message === "true") {
+
+                    Swal.fire({
+                        position: 'top',
+                        title: 'Email Sent Successfully!',
+                        icon: 'success',
+                        showConfirmButton: true
+                    });
+                }
+            });
+
+        </script>
+  

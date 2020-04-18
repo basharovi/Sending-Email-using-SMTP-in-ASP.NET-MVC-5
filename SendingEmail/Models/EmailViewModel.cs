@@ -7,7 +7,6 @@ namespace SendingEmail.Models
         [Required]
         public string EmailSubject { get; set; }
 
-
         public string EmailBody { get; set; }
 
         [Required]

@@ -24,6 +24,9 @@ namespace SendingEmail
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/sweetAlert", "https://cdn.jsdelivr.net/npm/sweetalert2@9").Include(
+                "~/Scripts/bootstrap.js"));
         }
     }
 }
